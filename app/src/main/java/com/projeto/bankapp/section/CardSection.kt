@@ -1,4 +1,4 @@
-package com.projeto.bankapp
+package com.projeto.bankapp.section
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -23,6 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.projeto.bankapp.R
 import com.projeto.bankapp.data.Card
 import com.projeto.bankapp.ui.theme.BlueEnd
 import com.projeto.bankapp.ui.theme.BlueStart

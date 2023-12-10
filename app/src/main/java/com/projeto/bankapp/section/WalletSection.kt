@@ -1,4 +1,4 @@
-package com.projeto.bankapp
+package com.projeto.bankapp.section
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

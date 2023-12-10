@@ -12,7 +12,6 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.Modifier
@@ -20,6 +19,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.projeto.bankapp.section.BottomNavigationBar
+import com.projeto.bankapp.section.CardSection
+import com.projeto.bankapp.section.CurrenciesSection
+import com.projeto.bankapp.section.FinanceSection
+import com.projeto.bankapp.section.WalletSection
 import com.projeto.bankapp.ui.theme.BankAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -67,9 +71,8 @@ fun HomeScreen() {
         CardSection()
             Spacer(modifier = Modifier.height(16.dp))
         FinanceSection()
-//        CurrenciesSection()
+        CurrenciesSection()
 
         }
-
     }
 }
